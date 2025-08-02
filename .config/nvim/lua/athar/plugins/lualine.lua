@@ -55,7 +55,7 @@ return {
       },
       sections = {
         lualine_x = {
-          { require("quake.lualine").default_c() },
+          { require("weather.lualine").default_c() },
           {
             lazy_status.updates,
             cond = lazy_status.has_updates,

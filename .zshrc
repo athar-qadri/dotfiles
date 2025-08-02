@@ -73,3 +73,6 @@ alias zshrcs='source ~/.zshrc'
 alias cls='clear'
 
 alias dotfiles='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
+
+
+export GOPATH=$HOME/go

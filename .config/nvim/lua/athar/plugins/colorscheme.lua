@@ -1,7 +1,6 @@
 return {
   "ellisonleao/gruvbox.nvim",
   priority = 1000,
-  opts = ...,
   config = function()
     require("gruvbox").setup({
       terminal_colors = true, -- add neovim terminal colors
@@ -29,4 +28,8 @@ return {
     })
     vim.cmd("colorscheme gruvbox")
   end,
+  opts = {
+    transparent_mode = true,
+    transparent_background = true,
+  },
 }
