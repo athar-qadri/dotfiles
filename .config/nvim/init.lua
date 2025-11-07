@@ -1,10 +1,11 @@
 require("athar.core")
 require("athar.lazy")
+--require("athar.lsp")
 
---vim.cmd.colorscheme("catppuccin-mocha")
-
-vim.keymap.set("n", "<C-j>", ":m .+1<CR>==", { noremap = true, silent = true }) -- Move current line down
 vim.keymap.set("n", "<C-k>", ":m .-2<CR>==", { noremap = true, silent = true }) -- Move current line up
+vim.keymap.set("n", "<C-j>", ":m .+1<CR>==", { noremap = true, silent = true }) -- Move current line down
+
+vim.opt.showtabline = 1
 
 ------- Insert mode mappings
 -----vim.keymap.set("i", "<C-j>", "<Esc>:m .+1<CR>==gi", { noremap = true, silent = true })  -- Move line down and return to insert mode
@@ -16,3 +17,4 @@ vim.keymap.set("n", "<C-k>", ":m .-2<CR>==", { noremap = true, silent = true }) 
 
 --vim.lsp.set_log_level("debug")
 --vim.lsp.log.set_format_func(vim.inspect)
+--

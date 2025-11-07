@@ -12,7 +12,7 @@
 
 font-family = BerkeleyMono Nerd Font
 font-size = 13
-theme = GruvboxDarkHard
+theme = Gruvbox Dark Hard
 
 #theme = catppuccin-latte
 
@@ -55,45 +55,46 @@ unfocused-split-opacity = .7
 
 
 # keybindings
-keybind = ctrl+a>r=reload_config
-keybind = ctrl+a>x=close_surface
+keybind = ctrl+s>r=reload_config
+keybind = ctrl+s>x=close_surface
 
-keybind = ctrl+a>w=new_window
+keybind = ctrl+s>w=new_window
 
 # tabs 
-keybind = ctrl+a>c=new_tab
-keybind = ctrl+a>shift+l=next_tab
+keybind = ctrl+s>c=new_tab
+keybind = ctrl+s>shift+l=next_tab
 
-keybind = ctrl+a>shift+h=previous_tab
-keybind = ctrl+a>comma=move_tab:-1
-keybind = ctrl+a>period=move_tab:1
+keybind = ctrl+s>shift+h=previous_tab
+keybind = ctrl+s>comma=move_tab:-1
+keybind = ctrl+s>period=move_tab:1
 
 # quick tab switch
-keybind = ctrl+a>1=goto_tab:1
-keybind = ctrl+a>2=goto_tab:2
-keybind = ctrl+a>3=goto_tab:3
-keybind = ctrl+a>4=goto_tab:4
-keybind = ctrl+a>5=goto_tab:5
-keybind = ctrl+a>6=goto_tab:6
-keybind = ctrl+a>7=goto_tab:7
-keybind = ctrl+a>8=goto_tab:8
-keybind = ctrl+a>9=goto_tab:9
+keybind = ctrl+s>1=goto_tab:1
+keybind = ctrl+s>2=goto_tab:2
+keybind = ctrl+s>3=goto_tab:3
+keybind = ctrl+s>4=goto_tab:4
+keybind = ctrl+s>5=goto_tab:5
+keybind = ctrl+s>6=goto_tab:6
+keybind = ctrl+s>7=goto_tab:7
+keybind = ctrl+s>8=goto_tab:8
+keybind = ctrl+s>9=goto_tab:9
 
 # split
-keybind = ctrl+a>\=new_split:right
-keybind = ctrl+a>-=new_split:down
+keybind = ctrl+s>\=new_split:right
+keybind = ctrl+s>-=new_split:down
 
-keybind = ctrl+j=goto_split:bottom
-keybind = ctrl+k=goto_split:top
-keybind = ctrl+h=goto_split:left
-keybind = ctrl+l=goto_split:right
-keybind = ctrl+a>n=goto_split:next
-keybind = ctrl+a>p=goto_split:previous
+keybind = ctrl+s>j=goto_split:bottom
+keybind = ctrl+s>k=goto_split:top
+keybind = ctrl+s>h=goto_split:left
+keybind = ctrl+s>l=goto_split:right
+
+keybind = ctrl+s>n=goto_split:next
+keybind = ctrl+s>p=goto_split:previous
 
 
-keybind = ctrl+a>m=toggle_split_zoom
+keybind = ctrl+s>m=toggle_split_zoom
 
-keybind = ctrl+a>e=equalize_splits
+keybind = ctrl+s>e=equalize_splits
 
 # other
 copy-on-select = clipboard
