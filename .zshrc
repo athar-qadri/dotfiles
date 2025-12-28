@@ -74,5 +74,7 @@ alias cls='clear'
 
 alias dot='git --git-dir=$HOME/.dotfiles --work-tree=$HOME'
 
+alias cat='bat -pp'
+
 
 export GOPATH=$HOME/go

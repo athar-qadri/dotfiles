@@ -80,7 +80,7 @@ keybind = ctrl+s>8=goto_tab:8
 keybind = ctrl+s>9=goto_tab:9
 
 # split
-keybind = ctrl+s>\=new_split:right
+keybind = ctrl+s>/=new_split:right
 keybind = ctrl+s>-=new_split:down
 
 keybind = ctrl+s>j=goto_split:bottom

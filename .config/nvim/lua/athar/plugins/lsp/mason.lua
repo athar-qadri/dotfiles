@@ -38,6 +38,7 @@ return {
         "prismals",
         "pyright",
         "gopls",
+        "biome",
       },
     })
     mason_tool_installer.setup({
@@ -50,6 +51,7 @@ return {
         "pylint",
         "eslint_d",
         "gopls",
+        "biome",
       },
     })
   end,
